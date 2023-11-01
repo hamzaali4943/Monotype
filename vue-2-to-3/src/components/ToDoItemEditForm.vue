@@ -4,6 +4,7 @@
       <label class="edit-label">Edit Name for &quot;{{ label }}&quot;</label>
       <input
         :id="id"
+        class="todo-input"
         ref="labelInput"
         type="text"
         autocomplete="off"

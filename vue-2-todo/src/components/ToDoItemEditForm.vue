@@ -5,6 +5,7 @@
       <input
         :id="id"
         ref="labelInput"
+        class="todo-input"
         type="text"
         autocomplete="off"
         v-model.trim="newLabel"
